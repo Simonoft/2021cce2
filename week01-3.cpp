@@ -3,10 +3,11 @@
 
 char line[2000];
 int main(){
-    char palindrameBox[13]={"AHIMOTUVWXY18"};
-    char mirrorBox[16]={"E3JLLJS2Z52S3E5Z"};
-
-
+    printf("½Ð¿é¤J¦r¦ê: ");
+    scanf("%s",line);
+    for(int i=0;i<2000;i++){
+        if(line[i]=='2') printf("§ä¨ì2\n");
+    }
 
     return 0;
 }
